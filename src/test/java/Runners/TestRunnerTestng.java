@@ -9,8 +9,8 @@ features = "E:\\javaselenium\\DemoWebShopMaven\\src\\test\\java\\features" // pa
 //,tags={"@SuccessfulLogin"} 
 
 ,monochrome=true// console output is much more readable
-//,plugin = {"json:target/cucumber-reports/CucumberTestReport.json"}
-  ,plugin = {"json:target/cucumber.json"}
+,plugin = {"json:target/cucumber-reports/CucumberTestReport.json"}
+  //,plugin = {"json:target/cucumber.json"}
 
 
 )
